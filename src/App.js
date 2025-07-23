@@ -2,7 +2,7 @@ import React, { useState,useEffect } from 'react';
 import './App.css';
 import peliculas1 from './data/peliculas.json';
 function App() {
-  const [peliculas, setPeliculas] = useState(peliculas1);
+  const [peliculas, setPeliculas] = useState('');
   const [peliculasFiltradas, setPeliculasFiltradas] = useState(peliculas1);
   const [busqueda, setBusqueda] = useState('');
   const [modoDescripcion, setModoDescripcion] = useState(false);
